@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="App.css" >
+</head>
+<body>
+
+
+    
+    <br> <br>
+    <div class="calculator">
+    <div>
+        <input disabled id="text" placeholder="enter the number"></input>
+    </div>
+        <div>
+            <button onclick="clearResult()" >clear</button>
+            <button onclick="sub('val')">CE</button>
+            <button onclick="add('/')">/</button>
+            <button>Power</button>
+        </div>
+        <div> <button onclick="add(7)">7</button>
+            <button onclick="add(8)">8</button>
+            <button onclick="add(9)">9</button>
+            <button onclick="add('+')">+</button>
+        </div>
+        <div>
+            <button onclick="add(4)">4</button>
+            <button onclick="add(5)">5</button>
+            <button onclick="add(6)">6</button>
+            <button onclick="add('-')">-</button>
+        </div>
+        <div>
+            <button onclick="add(1)"  id="1">1</button>
+            <button onclick="add(2)">2</button>
+            <button onclick="add(3)">3</button>
+            <button onclick="add('*')">*</button>
+        </div>
+       
+        <div>
+            <button onclick="add(0)">0</button>
+            <button onclick="add('00')">00</button>
+            <button onclick="add('.')">.</button>
+            <button onclick="calc()">=</button>
+            
+        </div>
+    </div>
+   
+    
+    
+   
+
+   
+<script src="App1.js"></script>
+    
+</body>
+</html>
